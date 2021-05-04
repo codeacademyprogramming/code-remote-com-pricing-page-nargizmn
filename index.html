@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        .watch-video:hover {
+            transform: scale(2);
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+    <title>Remote.com website layout structure</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="Remote.com logo">
+        <!-- navigation -->
+        <nav>
+            <!-- unordered list -->
+            <ul>
+                <!-- list item -->
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
+                    <a href="/pricing">Pricing</a>
+                </li>
+                <!-- the link inside list items below will be buttons -->
+                <li>
+                    <a href="/sign-in">Sign in</a>
+                </li>
+                <li>
+                    <a href="/sign-in">Get started</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Meet the new standard in Global Payroll</h1>
+        <p>International payroll, benefits, taxes, and compliance for businesses big and small.</p>
+
+        <a href="">Get started today</a> <!-- will be button -->
+        <button type="button" class="watch-video">
+            <i class="play-icon"></i>
+            Watch video
+        </button> <!-- this button will open modal(dialog) -->
+
+        <ul>
+            <li>
+                <svg>Icon</svg>
+                Easy self-onboarding
+            </li>
+            <li>
+                <svg>Icon</svg>
+                Easy self-onboarding
+            </li>
+            <li>
+                <svg>Icon</svg>
+                Easy self-onboarding
+            </li>
+        </ul>
+    </main>
+    <section id="our-customers">
+        <h2>Your local HR team on every continent</h2>
+        <div class="our-customers__left-part common-information-part">
+            <span>Global infrastructure</span>
+            <h3>We own the full stack, so you don't have to</h3>
+            <p>Remote fully owns local legal entities in all our covered countries. By removing the intermediaries,
+                Remote offers superior flexibility, speed, and cost efficiency to our customers.</p>
+            <a href="/get-started.html">Get started</a>
+        </div>
+        <div class="our-customers__right-part">
+            <img src="" alt="">
+        </div>
+    </section>
+    <section id="benefits">
+        <div class="benefits-left-part">
+            <img src="" alt="">
+        </div>
+        <div class="benefits-right-part common-information-part">
+            <span>Global infrastructure</span>
+            <h3>We own the full stack, so you don't have to</h3>
+            <p>Remote fully owns local legal entities in all our covered countries. By removing the intermediaries,
+                Remote offers superior flexibility, speed, and cost efficiency to our customers.</p>
+            <a href="/get-started.html">Get started</a>
+        </div>
+    </section>
+</body>
+
+</html>
