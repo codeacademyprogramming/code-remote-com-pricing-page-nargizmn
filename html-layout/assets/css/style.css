@@ -1,0 +1,245 @@
+body{
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+
+.page-header
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: rgb(66, 51, 161);
+}
+
+.build-your-team
+{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: rgb(66, 51, 161);
+}
+
+#main-categories-list
+{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding-right: 20px;    
+}
+
+
+#main-categories-list > li > a
+{
+    color: rgb(189, 177, 255);
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold; 
+}
+
+#main-categories-list > li > a:hover
+{
+    color: white;
+    text-decoration: underline solid rgb(37, 150, 190);
+}
+
+.main-article
+{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 400px;
+    font-weight: bolder;
+}
+
+.main-article h1
+{
+    font-size: 60px; 
+}
+
+
+
+
+.radio
+{
+    text-align: left;
+    padding-right: 50px;
+    white-space: nowrap;
+}
+
+
+.payment-table th, td
+{
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(189, 177, 255);
+    border-right: transparent;
+    border-left: transparent;
+    padding: 15px;
+}
+
+.no-border th, td
+{
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.payment-table
+{
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.payment-table th
+{
+    width: 15%;
+    font-weight: normal;
+}
+
+.payment-table h3
+{
+    color: rgb(109, 93, 210);
+}
+
+.payment-table .price-color-white
+{
+    color: white;
+    font-size: 2rem;
+}
+
+#features
+{
+    vertical-align: bottom;
+}
+
+.payment-table .first-line
+{
+    text-align: left;
+}
+
+.clients
+{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.clients img
+{
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.build-your-team 
+{
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.build-your-team h2
+{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.page-footer
+{
+    margin-top: 200px;
+    background: rgb(0, 35, 75);
+}
+
+.page-footer section
+{
+    float: left;
+    padding: 50px;
+}
+
+.page-footer section li
+{
+    list-style-type: none;
+}
+
+.page-footer section li a
+{
+    text-decoration: none;
+}
+
+.footer-company
+{
+    margin-left: 25%;
+}
+
+.footer-bottom
+{
+    display: flex;
+}
+
+#main-categories-list a[href="/getstarted"]
+{
+    padding: 14px 30px;
+    background-color: rgb(109, 93, 210);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#main-categories-list a[href="/getstarted"]:hover
+{
+    background-color: rgb(66, 51, 161);
+}
+
+#main-categories-list a[href="/signin"]
+{
+    padding: 14px 30px;
+    border: 2px solid rgb(109, 93, 210);
+    border-radius: 25px;
+}
+
+#main-categories-list a[href="/signin"]:hover
+{
+    border:transparent;
+}
+
+.payment-table a[href="/get-started"]
+{
+    text-decoration: none;
+    color: white;
+    padding: 14px 30px;
+    background-color: rgb(109, 93, 210);
+    border-radius: 25px;
+}
+
+.payment-table a[href="/get-started-blue"]
+{
+    text-decoration: none;
+    padding: 14px 30px;
+    background-color: rgb(117, 232, 240);
+    border-radius: 25px;
+}
+
+.build-your-team a
+{
+    padding: 14px 30px;
+    border: 2px solid rgb(117, 232, 240);
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.selected
+{
+    background-color: rgb(109, 93, 210);
+}
+
+#payment-table-head 
+{
+    padding-right: 100px;
+    background-color: rgb(66, 51, 161);
+}
+
+#payment-table-head .most-popular
+{
+    box-sizing: border-box;
+    background-color: rgb(117, 232, 240);;
+}
